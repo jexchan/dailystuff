@@ -1,0 +1,26 @@
+# export stuff
+export JAVA_HOME=/Library/Java/Home
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# version of maven2
+#export M2_HOME=/usr/local/maven
+#export PATH=$M2_HOME/bin:$PATH
+export PATH=/usr/local/mysql/bin:$PATH
+export PATH=/usr/local/Cellar/icu4c/4.8.1.1/bin/:$PATH
+export FLEX_HOME=/Applications/"Adobe Flash Builder 4.5"/sdks/4.5.1
+export ANT_HOME=/usr/local/ant 
+export PATH=${PATH}:${ANT_HOME}/bin
+export PATH=${PATH}:${FLEX_HOME}/bin
+
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+##
+# DELUXE-USR-LOCAL-BIN-INSERT
+# (do not remove this comment)
+##
+echo $PATH | grep -q -s "/usr/local/bin"
+if [ $? -eq 1 ] ; then
+    PATH=$PATH:/usr/local/bin
+    export PATH
+fi
+
