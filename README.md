@@ -16,3 +16,10 @@ Put dotfile into ~/bin/ folder, the add following line into ~/.bashrc
 * `vim`: my vim configuration
 * `sublime_text`: sublime_text custom command and configuration
 * `usefult_scripts`: lots of useful scripts for daily using
+
+
+
+
+Reference
+
+* [Dotfiles Github](http://dotfiles.github.com/) Your unofficial guide to dotfiles on GitHub.
