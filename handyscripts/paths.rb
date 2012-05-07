@@ -1,5 +1,5 @@
 #use your repository root path for replacement
-$rootDir = 'you repositoy root path'
+$rootDir = 'https://fndsvn.dev.activenetwork.com/foundations'
 
 $services = [$rootDir + 'core/flex-widgets/agencysettingwidgets/trunk/ agencysettingwidgets',
              $rootDir + 'core/flex-widgets/sharedorderlib/trunk/ sharedorderlib',

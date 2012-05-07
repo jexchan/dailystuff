@@ -13,6 +13,8 @@ Put dotfile into ~/bin/ folder, the add following line into ~/.bashrc
 
      ~/bin/dotfiles/bashrc 
 
+**using [oh-my-zsh](https://github.com/jexchan/oh-my-zsh) now**
+
 * `vim`: my vim configuration
 * `sublime_text`: sublime_text custom command and configuration
 * `usefult_scripts`: lots of useful scripts for daily using
